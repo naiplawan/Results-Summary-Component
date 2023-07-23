@@ -4,13 +4,11 @@
     font-family: 'Kodchasan';
 }
 @media screen and (max-width: 375px) {
-    .box-containner {
+    body {
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        height: 50%;
-        width: 50%;
     }
 }
 .wrapper {
@@ -31,7 +29,7 @@
     align-items: center;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
+    border-radius: 1.25rem;;
 }
 .left-box{
     height: 100%;
@@ -41,8 +39,8 @@
     justify-content: space-around;
     align-items: center;
     background: linear-gradient(0deg, #332DE9, #4D38F5, #6642FE);
-    border-radius: 20px;
-    padding: 40px;
+    border-radius: 1.25rem;;
+    padding: 2.5rem;
 
 }
 .circle-gradient{
@@ -57,14 +55,14 @@
 }
 .main-number{
     color: #FFFFFF;
-    font-size: 60px;
+    font-size: 3.75rem;
 }
 .sub-number{
     color: #857CF3;
 }
 .sub-text{
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 700;
 }
 .paragraph{
@@ -81,12 +79,12 @@
     justify-content: space-around;
     align-items: center;
     background-color: #ffffff;
-    border-radius: 20px;
-    padding: 30px;
+    border-radius: 1.25rem;
+    padding: 1.875rem;
 }
 .reaction-box, .memory-box, .verbal-box, .visual-box {
-    width: 250px;
-    height: 30px;
+    width: 15.625rem;
+    height: 1.875rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -116,37 +114,37 @@
   .reaction-box img, .memory-box img, .verbal-box img, .visual-box img {
     display: inline;
     vertical-align: middle;
-    padding-right: 10px;
+    padding-right: 0.625rem;
   }
   
 .button{
-    width: 250px;
-    height: 40px;
+    width: 15.625rem;
+    height:2.5rem;
     background-color: #303B59;
     color: white;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 .button:active{
     background: linear-gradient(0deg, #332DE9, #4D38F5, #6642FE);
 }
 
 .heading-right{
-    width: 250px;
+    width:  15.625rem;
     color: #373A4D;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 0.9375rem;
     text-align: left;
 }
 .heading-left{
     color: #BFBDFC;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .seperator{
     height: 2rem;
 }
 .attribution { 
-font-size: 11px;
+font-size:  0.6875rem;
 text-align: center; 
 }
 .attribution a { 
@@ -159,4 +157,4 @@ color: hsl(228, 45%, 44%);
 
 #reaction, #verbal, #memory, #visual {
     color: #373A4D;
-}
+} 
