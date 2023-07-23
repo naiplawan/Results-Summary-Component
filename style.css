@@ -1,30 +1,41 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Kodchasan',;
+    font-family: 'Kodchasan';
 }
-.wrapper{
-    width: 100vw;
-    height: 100vh;
+@media screen and (max-width: 375px) {
+    .box-containner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 50%;
+    }
+}
+.wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:hsl(0, 0%, 100%);
+    width: 100vw;
+    height: 100vh;
+    background-color: #f4f6f8;
 }
 .box-containner{
     width: 60%;
-    height: 45%;
+    height: 50%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: hsl(0, 0%, 100%);
+    background-color: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
 }
 .left-box{
     height: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -34,7 +45,6 @@
     padding: 40px;
 
 }
-
 .circle-gradient{
     height: 9rem;
     width: 9rem;
@@ -64,12 +74,13 @@
 }
 
 .right-box{
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 20px;
     padding: 30px;
 }
